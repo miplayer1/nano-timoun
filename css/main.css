@@ -1,0 +1,63 @@
+
+
+h1 {
+  font-size: 3rem;
+}
+
+header {
+
+  position: relative;
+  display: flex;
+  background-image: url("../assets/pexels-photo-235554.jpeg");
+  background-size: cover;
+  background-position:center center;
+  height: 110vh;
+
+}
+.bold {
+	font-weight: 500;
+}
+p {
+	font-size: 1.5rem;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.logo {
+	z-index: 2;
+	position: absolute;
+	top:15px;
+	left:15px;
+}
+.content {
+  margin: auto;
+  z-index: 2;
+}
+#section1 p {
+	font-size: 1rem;
+}
+#section1, #section2 {
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+
+.separator {
+	margin-bottom: 30px;
+}
+
+#sidenav-overlay {
+  z-index: 1;
+}
+.no-margin-bottom {
+	margin-bottom: 0!important;
+}
+footer p {
+	font-size: 1.3rem;
+}
