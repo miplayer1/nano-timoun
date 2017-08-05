@@ -137,7 +137,7 @@
             <div class="col s12"></div>
           </div>
         <div class="row">
-          <form class="col s12" action="" method="POST">
+          <form class="col s12" action="#!" method="POST">
             <div class="row">
               <div class="input-field col s12">
                 <i class="material-icons prefix">account_circle</i>
@@ -172,6 +172,9 @@
                   <i class="material-icons right">send</i>
                 </button>
               </div>
+            </div>
+            <div id="feedback" class="col s12 center-align ">
+              <?= $feedback ?>
             </div>
           </form>
 
