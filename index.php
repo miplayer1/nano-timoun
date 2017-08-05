@@ -1,8 +1,11 @@
+<?php
+  require_once('contact.php');
+?>
 <!DOCTYPE html>
 <html lang="fr">
   <head>
     <meta charset="utf-8">
-    <title>Nano template</title>
+    <title>Association Ti'moun</title>
     <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=no">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
