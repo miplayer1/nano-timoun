@@ -2,9 +2,9 @@ $(function(){
 
 // Egalisation hauteurs de cartes
   function setHeight() {
-    var hCard = $('.card:first .card-image').outerHeight();
-    var hImg = $('.card:first .card-image img').outerHeight();
-    var wImg = $('.card:first .card-image img').outerWidth();
+    var hCard = $('.card:last .card-image').outerHeight();
+    var hImg = $('.card:last .card-image img').outerHeight();
+    var wImg = $('.card:last .card-image img').outerWidth();
 
     $('#target').css("height", hCard);
     $('#target iframe').attr({
