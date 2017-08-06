@@ -202,7 +202,7 @@
                 </button>
               </div>
             </div>
-            <div id="feedback" class="col s12 center-align ">
+            <div id="feedback" class="col s12 center-align card-panel light-blue lighten-1">
               <?= $feedback ?>
             </div>
           </form>
