@@ -5,11 +5,40 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8">
-    <title>Association Ti'moun</title>
+    <title>Ti'moun| Association Loi 1901</title>
+    <meta name="description" content="Ti'moun | Association pour le soutien à la parentalité et le bien être des enfants à La Ciotat" />
+    <meta name="keywords" content="Parentalité positive, Montessori, café parent la ciotat, soutien à la parentalité, bien être des enfants" />
     <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=no">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="Shortcut icon" href="favicon.ico" type="image/x-icon" />
+    
+    <!-- Open Graph Meta Tags -->
+	<meta property="og:title" content="Ti'moun| Association Loi 1901" />
+	<meta property="og:site_name" content="Timoun">
+	<meta property="og:url" content="http://timoun.net/" />
+	<meta property="og:description" content="Ti'moun | Association pour le soutien à la parentalité et le bien être des enfants à La Ciotat" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="http://timoun.net/assets/og-img.png" />
+	
+	<!-- Piwik -->
+	<script type="text/javascript">
+	  var _paq = _paq || [];
+	  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+	  _paq.push(['trackPageView']);
+	  _paq.push(['enableLinkTracking']);
+	  (function() {
+	    var u="//analytics.mpaw.xyz/piwik/";
+	    _paq.push(['setTrackerUrl', u+'piwik.php']);
+	    _paq.push(['setSiteId', '2']);
+	    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+	    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+	  })();
+	</script>
+<!-- End Piwik Code -->
+
+
   </head>
   <body >
     <div class="navbar-fixed">
